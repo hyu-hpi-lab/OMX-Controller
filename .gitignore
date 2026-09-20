@@ -1,0 +1,42 @@
+# ---------------------------------------------------------------------------
+# Recorded datasets
+# ---------------------------------------------------------------------------
+# Each session writes parquet + mp4 here (tens of MB per run, and growing).
+# record.sh already mirrors them to leoperator:~/Projects/Datasets/OMX, which is
+# where they belong — git is the wrong store for regenerated binary capture data.
+/datasets/
+
+# ---------------------------------------------------------------------------
+# VSCode
+# ---------------------------------------------------------------------------
+# The C/C++ IntelliSense browse database is ~1 GB and is rewritten constantly.
+# c_cpp_properties.json and settings.json stay tracked: those are real config.
+.vscode/browse.vc.db
+.vscode/browse.vc.db-shm
+.vscode/browse.vc.db-wal
+.vscode/browse.vc.db.lock
+.vscode/ipch/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---------------------------------------------------------------------------
+# Local edit backups (record.sh.bak, omx_supervisor.py.pre_states, ...)
+# ---------------------------------------------------------------------------
+*.bak
+*.orig
+*.rej
+*.pre_*
+
+# ---------------------------------------------------------------------------
+# Editor / OS noise
+# ---------------------------------------------------------------------------
+*.swp
+*~
+.DS_Store

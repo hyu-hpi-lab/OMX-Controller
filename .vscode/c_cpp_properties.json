@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/jazzy/include/**",
+        "/home/space/Projects/OMX/open_manipulator/open_manipulator_collision/include/**",
+        "/home/space/Projects/OMX/open_manipulator/open_manipulator_gui/include/**",
+        "/home/space/Projects/OMX/open_manipulator/open_manipulator_playground/include/**",
+        "/home/space/Projects/OMX/open_manipulator/ros2_controller/om_gravity_compensation_controller/include/**",
+        "/home/space/Projects/OMX/open_manipulator/ros2_controller/om_joint_trajectory_command_broadcaster/include/**",
+        "/home/space/Projects/OMX/open_manipulator/ros2_controller/om_spring_actuator_controller/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}
